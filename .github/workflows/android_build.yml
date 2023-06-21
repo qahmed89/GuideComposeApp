@@ -13,8 +13,7 @@ jobs:
       - name: Set up JDK
         uses : actions/setup-java@v1
         with:
-          java-version: '11.5'
-          distribution: 'adopt'
+          java-version: '1.8'
 
       - name: Run Tests
         run: chmod +x ./gradlew  test
