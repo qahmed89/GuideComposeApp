@@ -17,8 +17,8 @@ jobs:
           distribution: 'adopt'
 
       - name: Run Tests
-        run: ./gradlew test
+        run: .\gradlew test
 
 
       - name: Build Project
-        run: ./gradlew assemble
+        run: .\gradlew assemble
