@@ -13,12 +13,12 @@ jobs:
       - name: Set up JDK
         uses : actions/setup-java@v1
         with:
-          java-version: '11'
+          java-version: '11.5'
           distribution: 'adopt'
 
       - name: Run Tests
-        run: .\gradlew test
+        run: chmod +x ./gradlew  test
 
 
       - name: Build Project
-        run: .\gradlew assemble
+        run: chmod +x ./gradlew assemble
