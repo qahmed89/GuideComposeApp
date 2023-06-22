@@ -20,4 +20,4 @@ jobs:
 
 
       - name: Build Project
-        run: chmod +x ./gradlew assemble
+        run: ./gradlew assemble
